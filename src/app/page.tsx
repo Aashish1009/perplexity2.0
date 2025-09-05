@@ -19,7 +19,7 @@ interface Message {
   isUser: boolean;
   type: string;
   isLoading?: boolean;
-  searchInfo?: SearchInfo;
+  searchInfo?: SearchInfo | null;
 }
 
 const Home = () => {
