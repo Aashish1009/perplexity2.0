@@ -151,7 +151,7 @@ import React from "react";
 interface SearchInfo {
   stages: string[];
   query: string;
-  urls: string[];
+  urls: string[] | string;
   error?: string;
 }
 
